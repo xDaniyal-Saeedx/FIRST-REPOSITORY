@@ -271,4 +271,8 @@ h1 span {
         width: 280px;
         height: 280px;
     }
+    nav a,
+    .nav-button {
+        font-size: 0.8rem;
+    }
 }
