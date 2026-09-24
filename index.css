@@ -112,6 +112,22 @@ nav a:hover {
     animation: fadeUp 0.8s ease both;
 }
 
+.typewriter {
+    min-height: 1.5em;
+    margin-bottom: 12px;
+    color: var(--text);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.typewriter-cursor {
+    display: inline-block;
+    margin-left: 3px;
+    color: var(--secondary);
+    animation: blink 0.9s steps(1) infinite;
+}
+
 .eyebrow {
     margin-bottom: 20px;
     color: var(--secondary);
@@ -229,6 +245,18 @@ h1 span {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .typewriter-cursor,
+    .hero-content,
+    .hero-art {
+        animation: none;
     }
 }
 
