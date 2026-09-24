@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 :root {
-    --bg: #080b18;
+    --bg: #10161d;
     --surface: rgba(255, 255, 255, 0.08);
     --text: #f8f9ff;
     --muted: #a9aec4;
@@ -26,9 +26,9 @@ body {
     color: var(--text);
     font-family: "Inter", sans-serif;
     background:
-        radial-gradient(circle at 80% 15%, rgba(139, 92, 246, 0.25), transparent 28rem),
-        radial-gradient(circle at 10% 80%, rgba(34, 211, 238, 0.12), transparent 25rem),
-        var(--bg);
+        radial-gradient(circle at 82% 12%, rgba(255, 107, 107, 0.2), transparent 27rem),
+        radial-gradient(circle at 12% 78%, rgba(44, 214, 180, 0.14), transparent 25rem),
+        linear-gradient(135deg, #0f1720 0%, #171721 52%, #0d2027 100%);
     overflow-x: hidden;
 }
 
